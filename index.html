@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khutso Tech Solutions | Software Development & Consulting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=styles.css>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Khutso Tech Solution</div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Professional Software Development Solutions</h1>
+            <p>We create custom websites, web applications, and provide expert consulting to help your business succeed in the digital world.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 class="section-title">Our Services</h2>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🌐</div>
+                <h3>Website Development</h3>
+                <p>Custom-designed, responsive websites tailored to your business needs. We build fast, modern sites that engage your audience.</p>
+                <ul class="service-features">
+                    <li>Responsive Design</li>
+                    <li>SEO Optimization</li>
+                    <li>Content Management</li>
+                    <li>E-commerce Solutions</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3>Web Applications</h3>
+                <p>Powerful web applications built with the latest technologies to streamline your business processes and enhance productivity.</p>
+                <ul class="service-features">
+                    <li>Custom Development</li>
+                    <li>API Integration</li>
+                    <li>Database Design</li>
+                    <li>Cloud Deployment</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">💡</div>
+                <h3>Consulting</h3>
+                <p>Expert guidance on technology strategy, architecture decisions, and best practices to ensure your project's success.</p>
+                <ul class="service-features">
+                    <li>Technology Assessment</li>
+                    <li>Architecture Planning</li>
+                    <li>Code Review</li>
+                    <li>Performance Optimization</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Our Projects</h2>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image bg-1">🏢</div>
+                <div class="project-content">
+                    <span class="project-category">Website</span>
+                    <h3>Corporate Website Redesign</h3>
+                    <p>Complete redesign and development of a corporate website with modern UI/UX and enhanced performance.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Responsive</span>
+                        <span class="tag">SEO</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image bg-2">📱</div>
+                <div class="project-content">
+                    <span class="project-category">Web App</span>
+                    <h3>Project Management Tool</h3>
+                    <p>Custom web application for task tracking, team collaboration, and project analytics with real-time updates.</p>
+                    <div class="project-tags">
+                        <span class="tag">Vue.js</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image bg-3">🛒</div>
+                <div class="project-content">
+                    <span class="project-category">E-commerce</span>
+                    <h3>Online Store Platform</h3>
+                    <p>Full-featured e-commerce platform with payment integration, inventory management, and analytics dashboard.</p>
+                    <div class="project-tags">
+                        <span class="tag">Next.js</span>
+                        <span class="tag">Stripe</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image bg-4">🎓</div>
+                <div class="project-content">
+                    <span class="project-category">Web App</span>
+                    <h3>Learning Management System</h3>
+                    <p>Interactive platform for online courses, student progress tracking, and automated grading system.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">AWS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image bg-5">💼</div>
+                <div class="project-content">
+                    <span class="project-category">Website</span>
+                    <h3>Portfolio & Blog Platform</h3>
+                    <p>Modern portfolio website with integrated blog, content management system, and contact functionality.</p>
+                    <div class="project-tags">
+                        <span class="tag">WordPress</span>
+                        <span class="tag">Custom Theme</span>
+                        <span class="tag">SEO</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image bg-6">📊</div>
+                <div class="project-content">
+                    <span class="project-category">Web App</span>
+                    <h3>Business Analytics Dashboard</h3>
+                    <p>Real-time analytics dashboard with data visualization, reporting tools, and custom metrics tracking.</p>
+                    <div class="project-tags">
+                        <span class="tag">Angular</span>
+                        <span class="tag">D3.js</span>
+                        <span class="tag">REST API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="process-container">
+            <h2 class="section-title">How We Work</h2>
+            
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Discovery</h3>
+                    <p>We understand your goals, requirements, and target audience to create the perfect solution.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Planning</h3>
+                    <p>Detailed planning and design phase where we create wireframes and technical specifications.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Development</h3>
+                    <p>Building your solution with clean code and regular progress updates throughout the process.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Launch</h3>
+                    <p>Deployment and ongoing support to ensure everything runs smoothly and meets your expectations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        
+        <div id="successMessage" class="success-message">
+            Thank you! Your message has been sent successfully. We'll get back to you soon.
+        </div>
+        
+        <form class="contact-form" action="https://formspree.io/f/mqelnrwd" method="POST" id="contactForm">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="company">Company</label>
+                    <input type="text" id="company" name="company">
+                </div>
+                <div class="form-group">
+                    <label for="service">Service</label>
+                    <select id="service" name="service">
+                        <option value="">Select a service</option>
+                        <option value="website">Website Development</option>
+                        <option value="webapp">Web Application</option>
+                        <option value="consulting">Consulting</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#process">Process</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p class="copyright">&copy; 2026 Khutso Tech Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src=script.js></script>
+</body>
+</html>
